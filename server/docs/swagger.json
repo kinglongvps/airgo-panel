@@ -4,11 +4,11 @@
         "description": "AirGo前后分离,多用户代理面板",
         "title": "AirGo",
         "contact": {
-            "url": "https://github.com/ppoonk/AirGo"
+            "url": "https://github.com/pura-panel/airgo-panel"
         },
         "license": {
             "name": "GPL v3.0",
-            "url": "https://github.com/ppoonk/AirGo/blob/main/LICENSE"
+            "url": "https://github.com/pura-panel/airgo-panel/blob/main/LICENSE"
         }
     },
     "paths": {

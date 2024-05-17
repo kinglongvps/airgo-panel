@@ -8,7 +8,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
-	"github.com/ppoonk/AirGo/utils/response"
+	"github.com/pura-panel/airgo-panel/utils/response"
 	"golang.org/x/net/context"
 	"io"
 	"io/fs"

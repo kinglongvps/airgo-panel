@@ -2,9 +2,9 @@ package service
 
 import (
 	"errors"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
-	"github.com/ppoonk/AirGo/utils/other_plugin"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
+	"github.com/pura-panel/airgo-panel/utils/other_plugin"
 	"strings"
 )
 

@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
-	"github.com/ppoonk/AirGo/utils/file_plugin"
-	"github.com/ppoonk/AirGo/utils/net_plugin"
-	"github.com/ppoonk/AirGo/utils/response"
-	"github.com/ppoonk/AirGo/utils/websocket_plugin"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
+	"github.com/pura-panel/airgo-panel/utils/file_plugin"
+	"github.com/pura-panel/airgo-panel/utils/net_plugin"
+	"github.com/pura-panel/airgo-panel/utils/response"
+	"github.com/pura-panel/airgo-panel/utils/websocket_plugin"
 	"github.com/tidwall/gjson"
 	"gorm.io/gorm"
 	"os"
@@ -106,7 +106,7 @@ func (s *AdminServer) DownloadLatestVersion(ctx *gin.Context) error {
 		return err
 	}
 	filePath := path.Join(currentPath, "AirGo.tar.gz")
-	// example:https://github.com/ppoonk/AirGo/releases/download/v0.2.1/AirGo-v0.2.1-darwin-arm64.tar.gz
+	// example:https://github.com/pura-panel/airgo-panel/releases/download/v0.2.1/AirGo-v0.2.1-darwin-arm64.tar.gz
 	downloadFilePath := fmt.Sprintf("%s/%s/%s-%s-%s-%s%s", constant.AIRGO_GITHUB_DOWNLOAD_PRE, version, "AirGo", version, runtime.GOOS, runtime.GOARCH, ".tar.gz")
 	//err = net_plugin.DownloadFile(downloadFilePath, filePath, 0666)
 	err = net_plugin.DownloadFileWithProgress(downloadFilePath, filePath, 0666, ctx)

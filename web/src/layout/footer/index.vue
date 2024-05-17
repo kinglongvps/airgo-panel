@@ -2,7 +2,7 @@
   <div class="layout-footer pb15">
     <div style="margin: 0 auto;">
       <div>
-        <el-link href="https://github.com/ppoonk/AirGo">© AirGo</el-link>
+        <el-link href="https://github.com/pura-panel/airgo-panel">© AirGo</el-link>
         <span> | </span>
         <el-link>By {{ themeConfig.globalTitle }}</el-link>
       </div>

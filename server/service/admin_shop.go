@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
 	"gorm.io/gorm"
 )
 

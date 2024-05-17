@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/ppoonk/AirGo/app"
-	"github.com/ppoonk/AirGo/constant"
+	"github.com/pura-panel/airgo-panel/app"
+	"github.com/pura-panel/airgo-panel/constant"
 	"github.com/spf13/cobra"
 )
 

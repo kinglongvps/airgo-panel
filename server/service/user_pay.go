@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
-	"github.com/ppoonk/AirGo/utils/encrypt_plugin"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
+	"github.com/pura-panel/airgo-panel/utils/encrypt_plugin"
 	"github.com/smartwalle/alipay/v3"
 	"strconv"
 )

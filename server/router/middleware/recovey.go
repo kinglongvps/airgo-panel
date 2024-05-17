@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/utils/format_plugin"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/utils/format_plugin"
 	"runtime/debug"
 )
 

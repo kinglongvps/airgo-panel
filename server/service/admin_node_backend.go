@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
 )
 
 type NodeBackendService struct {
@@ -64,7 +64,7 @@ func (n *NodeBackendService) StartTask() {
 			case constant.NODE_BACKEND_TASK_TITLE_UPDATE_CUSTOMER_TRAFFICUSED:
 				data := msg.Data.(*UpdateCustomerTrafficUsedMessage)
 				_ = AdminCustomerServiceSvc.UpdateCustomerServiceTrafficUsed(data.CustomerServiceList, data.CustomerServerIDs)
-		
+
 			default:
 
 			}

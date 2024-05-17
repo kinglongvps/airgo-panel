@@ -1198,11 +1198,11 @@ definitions:
     type: object
 info:
   contact:
-    url: https://github.com/ppoonk/AirGo
+    url: https://github.com/pura-panel/airgo-panel
   description: AirGo前后分离,多用户代理面板
   license:
     name: GPL v3.0
-    url: https://github.com/ppoonk/AirGo/blob/main/LICENSE
+    url: https://github.com/pura-panel/airgo-panel/blob/main/LICENSE
   title: AirGo
 paths:
   /api/admin/access/deleteAccess:

@@ -3,8 +3,8 @@ package global
 import (
 	"github.com/casbin/casbin/v2"
 	ants "github.com/panjf2000/ants/v2"
-	"github.com/ppoonk/AirGo/model"
-	queue "github.com/ppoonk/AirGo/utils/queue_plugin"
+	"github.com/pura-panel/airgo-panel/model"
+	queue "github.com/pura-panel/airgo-panel/utils/queue_plugin"
 	"github.com/sirupsen/logrus"
 	"github.com/songzhibin97/gkit/cache/local_cache"
 	"gorm.io/gorm"

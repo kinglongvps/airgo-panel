@@ -1,7 +1,7 @@
 package logrus_plugin
 
 import (
-	"github.com/ppoonk/AirGo/global"
+	"github.com/pura-panel/airgo-panel/global"
 	"io"
 	"log"
 	"os"

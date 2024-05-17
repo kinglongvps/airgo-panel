@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/ppoonk/AirGo/app"
-	"github.com/ppoonk/AirGo/service"
+	"github.com/pura-panel/airgo-panel/app"
+	"github.com/pura-panel/airgo-panel/service"
 	"github.com/spf13/cobra"
 )
 

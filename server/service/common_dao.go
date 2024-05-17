@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"reflect"

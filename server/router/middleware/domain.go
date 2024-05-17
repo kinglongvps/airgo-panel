@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ppoonk/AirGo/global"
+	"github.com/pura-panel/airgo-panel/global"
 	"strings"
 )
 

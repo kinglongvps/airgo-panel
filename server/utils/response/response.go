@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/ppoonk/AirGo/constant"
+	"github.com/pura-panel/airgo-panel/constant"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

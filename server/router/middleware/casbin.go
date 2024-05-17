@@ -2,10 +2,10 @@ package router
 
 import (
 	"fmt"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/service"
-	"github.com/ppoonk/AirGo/utils/response"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/service"
+	"github.com/pura-panel/airgo-panel/utils/response"
 	"strconv"
 	"strings"
 	"time"

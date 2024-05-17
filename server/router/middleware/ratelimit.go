@@ -2,9 +2,9 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/utils/response"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/utils/response"
 	"strconv"
 )
 

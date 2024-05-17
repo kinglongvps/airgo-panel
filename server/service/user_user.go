@@ -3,19 +3,19 @@ package service
 import (
 	"fmt"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/utils/jwt_plugin"
-	"github.com/ppoonk/AirGo/utils/time_plugin"
-	timeTool "github.com/ppoonk/AirGo/utils/time_plugin"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/utils/jwt_plugin"
+	"github.com/pura-panel/airgo-panel/utils/time_plugin"
+	timeTool "github.com/pura-panel/airgo-panel/utils/time_plugin"
 	"gorm.io/gorm"
 	"strconv"
 	"strings"
 	"time"
 
 	"errors"
-	"github.com/ppoonk/AirGo/model"
-	encrypt_plugin "github.com/ppoonk/AirGo/utils/encrypt_plugin"
+	"github.com/pura-panel/airgo-panel/model"
+	encrypt_plugin "github.com/pura-panel/airgo-panel/utils/encrypt_plugin"
 )
 
 type User struct{}

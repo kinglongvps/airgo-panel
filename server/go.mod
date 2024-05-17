@@ -1,4 +1,4 @@
-module github.com/ppoonk/AirGo
+module github.com/pura-panel/airgo-panel
 
 go 1.22.2
 

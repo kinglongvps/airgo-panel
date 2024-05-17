@@ -2,12 +2,12 @@ package admin_api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ppoonk/AirGo/api"
-	"github.com/ppoonk/AirGo/constant"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
-	"github.com/ppoonk/AirGo/service"
-	"github.com/ppoonk/AirGo/utils/response"
+	"github.com/pura-panel/airgo-panel/api"
+	"github.com/pura-panel/airgo-panel/constant"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
+	"github.com/pura-panel/airgo-panel/service"
+	"github.com/pura-panel/airgo-panel/utils/response"
 )
 
 // UpdateThemeConfig

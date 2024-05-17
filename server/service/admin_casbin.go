@@ -7,8 +7,8 @@ import (
 	"github.com/casbin/casbin/v2"
 	casbinModel "github.com/casbin/casbin/v2/model"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
 	"strconv"
 	"strings"
 )
@@ -27,18 +27,18 @@ func (c *Casbin) NewSyncedCachedEnforcer() (*casbin.SyncedCachedEnforcer, error)
 	text := `
 	[request_definition]
 	r = sub, obj, act
-	
+
 	[policy_definition]
 	p = sub, obj, act
-	
+
 	[role_definition]
 	g = _, _
-	
+
 	[policy_effect]
 	e = some(where (p.eft == allow))
-	
+
 	[matchers]
-	m = r.sub == p.sub && keyMatch2(r.obj,p.obj) && r.act == p.act 
+	m = r.sub == p.sub && keyMatch2(r.obj,p.obj) && r.act == p.act
 	`
 	//keyMatch2	一个URL 路径，例如 /alice_data/resource1,它返回一个布尔值表示 url 是否匹配
 	m, err := casbinModel.NewModelFromString(text)

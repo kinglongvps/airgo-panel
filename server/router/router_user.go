@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/ppoonk/AirGo/api/user_api"
-	middleware "github.com/ppoonk/AirGo/router/middleware"
+	"github.com/pura-panel/airgo-panel/api/user_api"
+	middleware "github.com/pura-panel/airgo-panel/router/middleware"
 )
 
 func (g *GinRouter) InitUserRouter(r *gin.RouterGroup) {

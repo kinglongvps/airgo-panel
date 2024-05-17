@@ -10,11 +10,11 @@ const docTemplate = `{
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "url": "https://github.com/ppoonk/AirGo"
+            "url": "https://github.com/pura-panel/airgo-panel"
         },
         "license": {
             "name": "GPL v3.0",
-            "url": "https://github.com/ppoonk/AirGo/blob/main/LICENSE"
+            "url": "https://github.com/pura-panel/airgo-panel/blob/main/LICENSE"
         },
         "version": "{{.Version}}"
     },

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/ppoonk/AirGo/global"
-	"github.com/ppoonk/AirGo/model"
+	"github.com/pura-panel/airgo-panel/global"
+	"github.com/pura-panel/airgo-panel/model"
 )
 
 type Role struct {
